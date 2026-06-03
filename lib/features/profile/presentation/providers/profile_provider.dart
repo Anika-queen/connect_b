@@ -7,7 +7,7 @@ import 'package:connect_b/core/providers/providers.dart';
 final profileRepositoryProvider = Provider<ProfileRepository>((ref) {
   return ProfileRepositoryImpl(ref.read(supabaseClientProvider));
 });
-
+// lisa updates it
 class ProfileNotifier extends StateNotifier<AsyncValue<AppUser?>> {
   ProfileNotifier(this._repo) : super(const AsyncValue.data(null));
 
