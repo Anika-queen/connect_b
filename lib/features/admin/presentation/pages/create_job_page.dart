@@ -10,7 +10,7 @@ class CreateJobPage extends ConsumerStatefulWidget {
   @override
   ConsumerState<CreateJobPage> createState() => _CreateJobPageState();
 }
-
+//nipa : update this
 class _CreateJobPageState extends ConsumerState<CreateJobPage> {
   final _titleController = TextEditingController();
   final _companyController = TextEditingController();
