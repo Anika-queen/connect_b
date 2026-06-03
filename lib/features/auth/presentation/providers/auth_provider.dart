@@ -17,7 +17,7 @@ class AuthState {
     this.user,
     this.error,
   });
-
+// shanu : update this page
   final AuthStatus status;
   final AppUser? user;
   final String? error;

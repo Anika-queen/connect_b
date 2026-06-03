@@ -8,7 +8,7 @@ final announcementsRepositoryProvider =
     Provider<AnnouncementsRepository>((ref) {
   return AnnouncementsRepositoryImpl(ref.read(supabaseClientProvider));
 });
-
+//nipa : update this
 class AnnouncementsState {
   const AnnouncementsState({
     this.announcements = const [],

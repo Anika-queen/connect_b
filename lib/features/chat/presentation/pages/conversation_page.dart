@@ -12,6 +12,7 @@ class ConversationPage extends ConsumerStatefulWidget {
   ConsumerState<ConversationPage> createState() => _ConversationPageState();
 }
 
+// shanu : update this page
 class _ConversationPageState extends ConsumerState<ConversationPage> {
   final _messageController = TextEditingController();
   final _scrollController = ScrollController();

@@ -11,7 +11,8 @@ class AppUser {
     this.expertise,
     this.avatarUrl,
   });
-// lisa updates
+//nipa : update this
+ main
   final String id;
   final String email;
   final String fullName;

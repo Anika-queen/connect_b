@@ -6,7 +6,7 @@ class DirectoryRepositoryImpl implements DirectoryRepository {
   DirectoryRepositoryImpl(this._client);
 
   final SupabaseClient _client;
-
+// shanu : update this page
   @override
   Future<List<AlumniProfile>> fetchAlumni({
     String query = '',

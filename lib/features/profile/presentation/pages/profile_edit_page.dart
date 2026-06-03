@@ -12,6 +12,8 @@ class ProfileEditPage extends ConsumerStatefulWidget {
   ConsumerState<ProfileEditPage> createState() => _ProfileEditPageState();
 }
 
+// shanu : solve error
+
 class _ProfileEditPageState extends ConsumerState<ProfileEditPage> {
   final _formKey = GlobalKey<FormState>();
   final _fullNameController = TextEditingController();

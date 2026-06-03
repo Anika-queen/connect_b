@@ -13,6 +13,7 @@ class AuthTextField extends StatefulWidget {
     super.key,
   });
 
+  // shanu : edit code
   final TextEditingController controller;
   final String label;
   final String hint;
