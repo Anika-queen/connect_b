@@ -1,7 +1,9 @@
 import 'package:connect_b/features/announcements/domain/entities/announcement.dart';
 import 'package:connect_b/features/announcements/domain/repositories/announcements_repository.dart';
 import 'package:supabase_flutter/supabase_flutter.dart';
-// lisa: change it
+
+// lisa: updates this
+
 class AnnouncementsRepositoryImpl implements AnnouncementsRepository {
   AnnouncementsRepositoryImpl(this._client);
 

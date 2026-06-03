@@ -7,7 +7,7 @@ class Announcement {
     this.eventDate,
     this.createdAt,
   });
-
+// lisa:
   final int id;
   final String title;
   final String details;
