@@ -1,5 +1,5 @@
 begin;
-
+// lisa updates
 create table if not exists public.announcements (
   id bigserial primary key,
   title text not null check (char_length(trim(title)) between 3 and 180),
