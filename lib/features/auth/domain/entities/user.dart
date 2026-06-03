@@ -12,6 +12,7 @@ class AppUser {
     this.avatarUrl,
   });
 //nipa : update this
+ main
   final String id;
   final String email;
   final String fullName;
