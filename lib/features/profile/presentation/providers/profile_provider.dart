@@ -3,7 +3,7 @@ import 'package:connect_b/features/profile/data/repositories/profile_repository_
 import 'package:connect_b/features/profile/domain/repositories/profile_repository.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:connect_b/core/providers/providers.dart';
-
+//nipa : update this
 final profileRepositoryProvider = Provider<ProfileRepository>((ref) {
   return ProfileRepositoryImpl(ref.read(supabaseClientProvider));
 });
