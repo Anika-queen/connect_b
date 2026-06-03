@@ -1,7 +1,7 @@
 import 'package:connect_b/features/jobs/domain/entities/job_post.dart';
 import 'package:connect_b/features/jobs/domain/repositories/jobs_repository.dart';
 import 'package:supabase_flutter/supabase_flutter.dart';
-
+// lisa updates 
 class JobsRepositoryImpl implements JobsRepository {
   JobsRepositoryImpl(this._client);
 
