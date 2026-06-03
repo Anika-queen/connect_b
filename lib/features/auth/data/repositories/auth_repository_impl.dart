@@ -6,7 +6,7 @@ class AuthRepositoryImpl implements AuthRepository {
   AuthRepositoryImpl(this._client);
 
   final SupabaseClient _client;
-
+// shanu : update this page
   @override
   Future<AppUser> signIn({
     required String email,
