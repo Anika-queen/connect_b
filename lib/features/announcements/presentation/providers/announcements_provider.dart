@@ -3,7 +3,7 @@ import 'package:connect_b/features/announcements/domain/entities/announcement.da
 import 'package:connect_b/features/announcements/domain/repositories/announcements_repository.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:connect_b/core/providers/providers.dart';
-
+// lisa
 final announcementsRepositoryProvider =
     Provider<AnnouncementsRepository>((ref) {
   return AnnouncementsRepositoryImpl(ref.read(supabaseClientProvider));
