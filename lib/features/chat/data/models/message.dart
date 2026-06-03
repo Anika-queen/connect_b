@@ -12,7 +12,7 @@ class Message {
   final String receiverId;
   final String content;
   final DateTime createdAt;
-
+// shanu : solve error and update
   factory Message.fromMap(Map<String, dynamic> map) {
     return Message(
       id: (map['id'] as num).toInt(),
