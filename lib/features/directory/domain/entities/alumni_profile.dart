@@ -11,7 +11,7 @@ class AlumniProfile {
     this.expertise,
     this.avatarUrl,
   });
-
+// lisa updates this
   final String id;
   final String fullName;
   final String email;
