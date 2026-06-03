@@ -1,5 +1,5 @@
 begin;
-
+// lisa updates
 create table if not exists public.saved_jobs (
   user_id uuid not null references auth.users (id) on delete cascade,
   job_id bigint not null references public.jobs (id) on delete cascade,
