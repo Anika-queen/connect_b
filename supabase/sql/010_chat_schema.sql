@@ -1,7 +1,7 @@
 -- ═══════════════════════════════════════════════
 -- Migration 010: Chat messages table
 -- ═══════════════════════════════════════════════
-
+// lisa updates 
 begin;
 
 -- 1) Messages table
