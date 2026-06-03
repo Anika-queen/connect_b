@@ -8,7 +8,7 @@ import 'package:supabase_flutter/supabase_flutter.dart';
 final authRepositoryProvider = Provider<AuthRepository>((ref) {
   return AuthRepositoryImpl(ref.read(supabaseClientProvider));
 });
-
+// lisa update code
 enum AuthStatus { initial, authenticated, unauthenticated, loading }
 
 class AuthState {
